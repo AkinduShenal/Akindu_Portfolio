@@ -34,7 +34,7 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* Scroll-down indicator, positioned just under the 3D desk */}
-      <div className="absolute left-1/2 bottom-[15px] transform -translate-x-1/2 z-20">
+      <div className="absolute left-1/2 bottom-[100px] transform -translate-x-1/2 z-20">
         <a href="#about">
           <div className="w-9 h-16 rounded-3xl border-2 border-white/60 flex justify-center items-start p-2">
             <motion.div
