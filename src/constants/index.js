@@ -4,6 +4,8 @@ import drawio from "../assets/tech/drawio.png";
 import pyim from "../assets/tech/pyim.png";
 import hotel from "../assets/hotel.png";
 import xaphora from "../assets/xaphora.png";
+import pint from "../assets/pin.png";
+
 import {
   mobile,
   backend,
@@ -220,24 +222,24 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Pinthanna ERP",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Laravel/MySQL ERP with Blade templates and JavaScript tables automates production, inventory,secures workflows via middleware, and supports CI/CD.",
     tags: [
       {
-        name: "nextjs",
+        name: "PHP-Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pint,
     source_code_link: "https://github.com/",
   },
 ];
@@ -248,6 +250,7 @@ export { default as drawio } from "../assets/tech/drawio.png";
 export { default as pyim } from "../assets/tech/pyim.png";
 export { default as hotel } from "../assets/hotel.png";
 export { default as xaphora } from "../assets/xaphora.png";
+export { default as pint } from "../assets/pin.png";
 export { services, technologies, experiences, testimonials, projects };
 
 
